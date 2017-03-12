@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test name="waterford(failed)">
+    <classes>
+      <class name="com.selenium.tests.tests.TestDemo">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.selenium.tests.tests.TestDemo -->
+    </classes>
+  </test> <!-- waterford(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
